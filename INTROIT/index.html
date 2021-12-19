@@ -546,3 +546,65 @@ body {font-family: "Lato", sans-serif}
     <h6 class="w3-justify">Yahoo finance 2021, Vietnam Cloud Service Market Report 2021: Accelerating Digital Transformation Driving Growth - Forecast to 2026, Yahoo Finance, viewed 13 December 2021, https://finance.yahoo.com/news/vietnam-cloud-market-report-2021-211500665.html.</h6><br> 
     <h6 class="w3-justify">Yuan, Y & Wang, F 2016, ‘Towards blockchain-based intelligent transportation systems’, 2016 IEEE 19th international conference on intelligent transportation systems (ITSC), pp. 2663-2668, IEEE database.</h6><br> 
     <h6 class="w3-justify">Zhang, Q, Heng, L & Boutaba, R 2020, ‘Cloud computing: state-of-the-art and research challenges’, The Brazilian Computer Society, vol. 1, pp. 7-18.</h6><br> 
+  </div>
+  <!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-text-white w3-xlarge">
+<div>
+<img src="rmit logo.jpg" style="width:20%" class=" w3-center" alt="Intro to IT">
+<h3 class="w3-red w3-padding-16">RMIT Vietnam</h3>
+</div>
+<p class="w3-medium w3-opacity"><i>Introduction to Information Technology - Assignment 2</i></p>
+<p class="w3-medium w3-opacity"><i>TRAN THI THUY TIEN - PHAM MINH CHAU - PHAM XUAN HUY - NGUYEN LE KHANH NGUYEN</i></p>
+<h1 class="w3-opacity"><i>BUSINESS IT TEAM</i></h1>
+</footer>
+<script>
+
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+var i;
+var x = document.getElementsByClassName("mySlides");
+for (i = 0; i < x.length; i++) {
+x[i].style.display = "none";
+}
+myIndex++;
+if (myIndex > x.length) {myIndex = 1}
+x[myIndex-1].style.display = "block";
+setTimeout(carousel, 4000);
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+var x = document.getElementById("navDemo");
+if (x.className.indexOf("w3-show") === -1) {
+x.className += " w3-show";
+} else {
+x.className = x.className.replace(" w3-show", "");
+}
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+if (event.target === modal) {
+modal.style.display = "none";
+}
+}
+</script>
+
+</body>
+</html>
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
